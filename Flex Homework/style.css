@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,300;1,200&display=swap');
+* {
+    
+    font-family: 'Kantumruy Pro', sans-serif;
+    color: darkblue;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+/* Sticky */
+.sticky{
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.sticky a{
+    text-decoration: none;
+    color: white;
+}
+
+.sticky a h2{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 30px 0px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./image/sunset.png");
+    background-size: cover;
+}
+
+/* Navigator */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+nav div{
+    width: 50%;
+    height: auto;
+}
+
+nav img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+/* Nav Box */
+.nav-box{
+    border: 1px solid rgb(0, 0, 129);
+}
+
+/* Head text */
+.head-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.head-text div p{
+    text-align: center;
+    color: rgb(0, 0, 129);
+    font-weight: bold;
+    font-size: 42px;
+    
+}
+
+.head-text div button{
+    font-weight: 700;
+    display: block;
+    background-color: rgb(0, 0, 129);
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.head-text div button:hover{
+    font-weight: 700;
+    color: rgb(0, 0, 129);
+    background-color: greenyellow;
+}
+
+/* Main Content */
+main{
+    width: 100%;
+    height: auto;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.main-text h2{
+    font-size: 35px;
+}
+.main-text{
+    text-align: center;
+    color: rgb(0, 0, 129);
+    font-weight: 700;
+    padding: 10px 10px;
+    font-size: 22px;
+}
+
+.picture{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.picture img{
+    width: 400px;
+    height: 400px;
+}
+/* About */
+.about{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.about div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.about img{
+    width: 400px;
+    height: 350px;
+}
+
+.about-text{
+    width: 300px;
+    color: rgb(0, 0, 129);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.about-text button{
+    border: 0;
+    color: rgb(0, 0, 129);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 22px;
+}
+.section1 h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.section1 .container{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap
+
+}
+
+.section1 .container .item3 {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+   
+}
+
+i {
+    font-size: 60px;
+  
+}
+.gallery{
+    display: flex;
+    flex-grow: 1;
+}
+.footer h1 {
+    text-align: center;
+   
+}
+.image ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image li{
+    height: 40vh;
+    flex-grow: 1;
+    list-style: none;
+}
+img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
